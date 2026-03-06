@@ -7,7 +7,7 @@ import { FatherComponent } from "./components/father-component/father-component"
 
 @Component({
   selector: 'app-root',
-  imports: [PriceComponent, ChildComponent, FatherComponent],
+  imports: [FatherComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
