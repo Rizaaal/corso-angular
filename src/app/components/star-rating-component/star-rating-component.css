@@ -1,0 +1,13 @@
+ul {
+  display: flex;
+  gap: 5px;
+}
+
+.star {
+  list-style-type: none;
+}
+
+.star:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}

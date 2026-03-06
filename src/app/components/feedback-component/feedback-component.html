@@ -1,0 +1,8 @@
+<app-star-rating-component 
+  (votoSelezionato)="onVoto($event)" 
+  [massimo]="massimo"
+/>
+
+@if (voto !== null) {
+  <p>Hai dato un voto di {{voto + 1}} su {{massimo}}!</p>
+}

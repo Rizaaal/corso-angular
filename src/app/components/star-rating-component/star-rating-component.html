@@ -1,0 +1,10 @@
+<ul>
+  @for (stella of stelle(); track $index; let i = $index) {
+    <li 
+      class="star"
+      (click)="votoSelezionato.emit(i)"
+    >
+      {{stella}}
+    </li>
+  }
+</ul>
