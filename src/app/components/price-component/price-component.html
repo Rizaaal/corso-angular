@@ -1,0 +1,11 @@
+<p>
+  Prezzo Netto: {{prezzoNetto()}} €
+</p>
+<p>
+  Prezzo lordo: {{prezzoLordo()}} €
+</p>
+<p>
+  aliquota IVA: {{aliquotaIVA()}}%
+</p>
+
+<input #input type="number" (input)="prezzoNetto.set(input.valueAsNumber)">

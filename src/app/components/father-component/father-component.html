@@ -1,0 +1,3 @@
+@for (product of products; track $index) {
+  <app-child-component [nome]="product.nome" [prezzo]="product.prezzo" [disponibile]="product.disponibile"/>
+}

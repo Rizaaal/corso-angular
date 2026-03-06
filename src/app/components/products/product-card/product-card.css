@@ -1,0 +1,29 @@
+div {
+  padding: 1rem;
+  background-color: wheat;
+  font-family: sans-serif;
+  max-width: 300px;
+  border-radius: 20px;
+  box-shadow: 10px 10px black;
+}
+
+input {
+  margin-top: 2rem;
+}
+
+.secondary {
+  color: gray
+}
+
+button {
+  background-color: white;
+  padding: .5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: background-color .2s;
+}
+
+button:hover {
+  background-color: chartreuse;
+  cursor: pointer;
+}

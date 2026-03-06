@@ -8,7 +8,12 @@
   "projects": {
     "scuola-angular": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "path": "src/app/components",
+        "style": "css",
+        "skipTests": false,
+        "standalone": true
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
