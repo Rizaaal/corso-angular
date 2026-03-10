@@ -1,0 +1,26 @@
+<ul>
+  @for (project of projects; track project.id) {
+    <li>
+      <a 
+        routerLink="/projects/{{project.id}}" 
+        routerLinkActive="active"
+      >
+        {{project.nome}}
+      </a>
+    </li>
+  }
+</ul>
+
+@if (id()) {
+  @if (selectedProject(); as project) {
+    <div>
+      <h1>{{project.nome}}</h1>
+      <p>{{project.descrizione}}</p>
+    </div>
+  } @else {
+    <p>Progetto non trovato</p>
+  }
+} @else {
+  <h1>Progetti</h1>
+  <p>In questa sezione puoi sfogliare i progetti. Clicca su un progetto per vedere i dettagli</p>
+}

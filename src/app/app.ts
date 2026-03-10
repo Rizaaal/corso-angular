@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { PreviewComponent } from './components/preview-component/preview-component';
-import { SettingsComponent } from './components/settings-component/settings-component';
+import { RouterLink, RouterOutlet, RouterLinkActive } from "@angular/router";
 
 @Component({
   selector: 'app-root',
-  imports: [PreviewComponent, SettingsComponent],
+  imports: [RouterLink, RouterOutlet, RouterLinkActive],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

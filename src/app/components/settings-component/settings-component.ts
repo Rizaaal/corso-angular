@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { UserPreferencesService } from '../../user-preferences-service';
+import { UserPreferencesService } from '../../services/user-preferences-service';
 
 @Component({
   selector: 'app-settings-component',
