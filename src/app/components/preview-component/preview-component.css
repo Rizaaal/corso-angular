@@ -1,0 +1,10 @@
+div {
+  color: #333;
+  width: 100vh;
+  height: 80vh;
+}
+
+.dark {
+  background-color: #333;
+  color: #eee;
+}

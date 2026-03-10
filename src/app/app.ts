@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { AddItemComponent } from "./components/add-item-component/add-item-component";
-import { ShoppingListComponent } from "./components/shopping-list-component/shopping-list-component";
+import { PreviewComponent } from './components/preview-component/preview-component';
+import { SettingsComponent } from './components/settings-component/settings-component';
 
 @Component({
   selector: 'app-root',
-  imports: [AddItemComponent, ShoppingListComponent],
+  imports: [PreviewComponent, SettingsComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
