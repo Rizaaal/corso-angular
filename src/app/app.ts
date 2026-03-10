@@ -1,15 +1,10 @@
-import { Component, signal } from '@angular/core';
-import { ProductCard } from "./components/products/product-card/product-card";
-import { TrafficLight } from "./components/traffic-light/traffic-light";
-import { PriceComponent } from "./components/price-component/price-component";
-import { ChildComponent } from "./components/child-component/child-component";
-import { FatherComponent } from "./components/father-component/father-component";
-import { StarRatingComponent } from "./components/star-rating-component/star-rating-component";
-import { FeedbackComponent } from "./components/feedback-component/feedback-component";
+import { Component } from '@angular/core';
+import { AddItemComponent } from "./components/add-item-component/add-item-component";
+import { ShoppingListComponent } from "./components/shopping-list-component/shopping-list-component";
 
 @Component({
   selector: 'app-root',
-  imports: [FatherComponent, StarRatingComponent, FeedbackComponent],
+  imports: [AddItemComponent, ShoppingListComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
